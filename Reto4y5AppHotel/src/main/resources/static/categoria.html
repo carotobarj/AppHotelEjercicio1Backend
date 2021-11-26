@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Hotel - Categoría habitaciones</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/funCat.js"></script>
+</head>
+<body>
+    <h1>Consulta de categorías</h1>
+    <div id="resultado"></div>
+    <button onclick="consulta()">Consultar</button>
+    <div>
+        <input type="text" id="name" placeholder="name" maxlength="45" required>
+        <input type="text" id="description" placeholder="description" maxlength="250" required>
+    </div>
+    <button onclick="guardarInfo()">Guardar Categoría</button>
+    <button onclick="editar()">Editar Categoría</button>
+    
+    <div>
+        <a href="index1.html">Volver a inicio</a>
+    </div>
+</body>
+</html>
